@@ -1,0 +1,7 @@
+1.1.
+1) A statement is a part of a program that specifies one step of an algorithm, a comment is a part of a program 
+that contains information about the program but has no effecto when the program runs.
+2) portable - the ability of a program to run on more than one kind of a computer
+3) compile - to translate a program in a high-level language into a low-level language, all at once, in preparation 
+for later execution
+4) executable - another name for object code that is ready to run on specific hardware
