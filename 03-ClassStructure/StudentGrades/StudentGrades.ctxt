@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=StudentGrades
+comment1.params=name\ numberOfGrades
+comment1.target=StudentGrades(java.lang.String,\ int)
+comment2.params=
+comment2.target=double\ lowestGrade()
+comment3.params=
+comment3.target=double\ highestGrade()
+comment4.params=
+comment4.target=int\ numOfGrades()
+comment5.params=
+comment5.target=double\ gradeAverage()
+comment6.params=
+comment6.target=void\ displayRecord()
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+numComments=8
