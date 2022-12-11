@@ -1,5 +1,7 @@
 import java.util.ArrayList;
 
+import project.Book;
+
 public class Bookcase {
     private String ownerName;
     private int numberOfBooks;
