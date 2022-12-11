@@ -29,6 +29,7 @@ public class Numbers {
         return true;
     }
 
+    // sprawdzenie
     public static void main(String[] args) {
         Numbers n1 = new Numbers(9, 7, 4, 3, 7);
         System.out.println(n1.different());
