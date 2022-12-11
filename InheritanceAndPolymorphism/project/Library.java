@@ -24,16 +24,17 @@ public class Library {
     }
 
     public static void main(String[] args) {
-        Publisher p1 = new Publisher("Altenberg", "Warszawa");
+        Publisher p2 = new Publisher("Altenberg", "Warszawa");
+
         Library l1 = new Library();
-        Book book1 = new Book("tytul", "autor", p1);
+        Book book1 = new Book("tytul", "autor", p2, 2022);
         l1.addBook(book1);
-        Ebook ebook1 = new Ebook("abc", "abcd", p1, "asdujbjhdbc");
-        Ebook ebook2 = new Ebook("asdhjbcka", "blablabla", p1, "aaiusdfbcls");
+        Ebook ebook1 = new Ebook("abc", "abcd", p2, 1994, "asdujbjhdbc");
+        Ebook ebook2 = new Ebook("asdhjbcka", "blablabla", p2, 2000, "aaiusdfbcls");
         l1.addBook(ebook1);
         l1.addBook(ebook2);
-        Audiobook audio1 = new Audiobook("iushvu", "shbkbdk", p1, 23, 3);
-        Audiobook audio2 = new Audiobook("hsdbi", "asdybgjc", p1, 34, 43);
+        Audiobook audio1 = new Audiobook("iushvu", "shbkbdk", p2, 2002, 23, 3);
+        Audiobook audio2 = new Audiobook("hsdbi", "asdybgjc", p2, 2000, 34, 43);
         l1.addBook(audio1);
         l1.addBook(audio2);
         l1.display();

@@ -11,13 +11,14 @@ public class Ebook extends Book {
         return Filename;
     }
 
-    public Ebook(String title, String author, Publisher publisher, String filename) {
-        super(title, author, publisher);
+    public Ebook(String title, String author, Publisher publisher, int yearOfPublication, String filename) {
+        super(title, author, publisher, yearOfPublication);
         Filename = filename;
     }
 
     public void display() {
-        System.out.println(getTitle() + ", " + getAuthor() + ", " + getFilename());
+        super.display();
+        System.out.println("nazwa pliku: " + getFilename());
     }
 
 }

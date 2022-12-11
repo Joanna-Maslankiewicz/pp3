@@ -21,12 +21,14 @@ public class Audiobook extends Book {
     }
 
     public void display() {
-        System.out.println(
-                getTitle() + ", " + getAuthor() + ", audiobook duration: " + getMinutes() + ":" + getSeconds());
+        super.display();
+        System.out.printf("czas trwania: %02d:%02d", getMinutes(), getSeconds());
+        System.out.println();
     }
 
-    public Audiobook(String title, String author, Publisher publisher, int minutes, int seconds) {
-        super(title, author, publisher);
+    public Audiobook(String title, String author, Publisher publisher, int yearOfPublication, int minutes,
+            int seconds) {
+        super(title, author, publisher, yearOfPublication);
         this.minutes = minutes;
         this.seconds = seconds;
     }
