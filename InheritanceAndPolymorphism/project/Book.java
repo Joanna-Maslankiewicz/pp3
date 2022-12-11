@@ -1,4 +1,4 @@
-package project;
+package InheritanceAndPolymorphism.project;
 
 public class Book {
     private String title;
@@ -40,7 +40,7 @@ public class Book {
     }
 
     public static void main(String[] args) {
-        Publisher p1 = new Publisher("Altenberg", "Warszawa")
+        Publisher p1 = new Publisher("Altenberg", "Warszawa");
         Book b1 = new Book("7 cząsteczek", "Dawid Myśliwiec", p1);
         b1.display();
     }

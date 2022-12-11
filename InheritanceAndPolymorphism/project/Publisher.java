@@ -1,4 +1,4 @@
-package project;
+package InheritanceAndPolymorphism.project;
 
 public class Publisher {
     private String name;

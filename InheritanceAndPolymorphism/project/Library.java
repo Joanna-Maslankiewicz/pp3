@@ -1,4 +1,4 @@
-package project;
+package InheritanceAndPolymorphism.project;
 
 import java.util.ArrayList;
 
