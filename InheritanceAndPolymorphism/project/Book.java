@@ -1,4 +1,4 @@
-package InheritanceAndPolymorphism.project;
+package project;
 
 public class Book {
     private String title;

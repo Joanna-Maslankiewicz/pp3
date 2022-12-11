@@ -1,4 +1,4 @@
-package InheritanceAndPolymorphism.project;
+package project;
 
 public class Writer {
     private String firstName;

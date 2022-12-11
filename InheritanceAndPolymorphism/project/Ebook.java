@@ -1,4 +1,4 @@
-package InheritanceAndPolymorphism.project;
+package project;
 
 public class Ebook extends Book {
     private String Filename;
@@ -11,8 +11,8 @@ public class Ebook extends Book {
         return Filename;
     }
 
-    public Ebook(String title, String author, Publisher publisher, int yearOfPublication, String filename) {
-        super(title, author, publisher, yearOfPublication);
+    public Ebook(String title, Writer writer, Publisher publisher, int yearOfPublication, String filename) {
+        super(title, writer, publisher, yearOfPublication);
         Filename = filename;
     }
 

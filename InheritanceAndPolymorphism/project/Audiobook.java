@@ -1,4 +1,4 @@
-package InheritanceAndPolymorphism.project;
+package project;
 
 public class Audiobook extends Book {
     private int minutes;
@@ -26,9 +26,9 @@ public class Audiobook extends Book {
         System.out.println();
     }
 
-    public Audiobook(String title, String author, Publisher publisher, int yearOfPublication, int minutes,
+    public Audiobook(String title, Writer writer, Publisher publisher, int yearOfPublication, int minutes,
             int seconds) {
-        super(title, author, publisher, yearOfPublication);
+        super(title, writer, publisher, yearOfPublication);
         this.minutes = minutes;
         this.seconds = seconds;
     }
