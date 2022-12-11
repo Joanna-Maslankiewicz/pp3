@@ -25,14 +25,10 @@ public class Audiobook extends Book {
                 getTitle() + ", " + getAuthor() + ", audiobook duration: " + getMinutes() + ":" + getSeconds());
     }
 
-    public Audiobook(String title, String author, int minutes, int seconds) {
+    public Audiobook(String title, String author, Publisher publisher, int minutes, int seconds) {
         super(title, author, publisher);
         this.minutes = minutes;
         this.seconds = seconds;
     }
 
-    public static void main(String[] args) {
-        Audiobook a1 = new Audiobook("tytuł", "autor", 2, 59);
-        a1.display();
-    }
 }

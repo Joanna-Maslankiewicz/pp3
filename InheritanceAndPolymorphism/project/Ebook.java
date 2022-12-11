@@ -11,8 +11,8 @@ public class Ebook extends Book {
         return Filename;
     }
 
-    public Ebook(String title, String author, String filename) {
-        super(title, author);
+    public Ebook(String title, String author, Publisher publisher, String filename) {
+        super(title, author, publisher);
         Filename = filename;
     }
 
@@ -20,8 +20,4 @@ public class Ebook extends Book {
         System.out.println(getTitle() + ", " + getAuthor() + ", " + getFilename());
     }
 
-    public static void main(String[] args) {
-        Ebook e1 = new Ebook("Tytuł", "Nazwisko", "nazwa pliku");
-        e1.display();
-    }
 }
