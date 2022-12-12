@@ -1,8 +1,8 @@
 public class Car extends Vehicle {
     int maxSpeed;
 
-    public Car(int seats, int maxSpeed) {
-        super(seats);
+    public Car(int s, int maxSpeed) {
+        super(s);
         this.maxSpeed = maxSpeed;
     }
 
@@ -13,9 +13,8 @@ public class Car extends Vehicle {
         return specs;
     }
 
-    // sprawdzenie
     public static void main(String[] args) {
-        Car c = new Car(7, 300);
+        Car c = new Car(4, 80);
         for (int i : c.spec()) {
             System.out.println(i);
         }
