@@ -1,3 +1,5 @@
+package mock2;
+
 public class SuperCounter extends Counter {
     public Counter counter;
 

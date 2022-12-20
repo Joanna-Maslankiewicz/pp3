@@ -1,4 +1,4 @@
-package InheritanceAndPolymorphism.project;
+package project;
 
 public class Ebook extends Book {
     private String Filename;
@@ -11,17 +11,14 @@ public class Ebook extends Book {
         return Filename;
     }
 
-    public Ebook(String title, String author, String filename) {
-        super(title, author);
+    public Ebook(String title, Writer writer, Publisher publisher, int yearOfPublication, String filename) {
+        super(title, writer, publisher, yearOfPublication);
         Filename = filename;
     }
 
     public void display() {
-        System.out.println(getTitle() + ", " + getAuthor() + ", " + getFilename());
+        super.display();
+        System.out.println("nazwa pliku: " + getFilename());
     }
 
-    public static void main(String[] args) {
-        Ebook e1 = new Ebook("Tytuł", "Nazwisko", "nazwa pliku");
-        e1.display();
-    }
 }

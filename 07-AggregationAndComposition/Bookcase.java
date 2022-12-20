@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-import project.Book;
+import duringClass.Book;
 
 public class Bookcase {
     private String ownerName;

@@ -5,14 +5,13 @@ public class Family {
         this.members = members;
     }
 
-    public int adult() {
-        int countAdults = 0;
+    public int adults() {
+        int count = 0;
         for (Person person : members) {
             if (person.getAge() >= 18) {
-                countAdults++;
+                count++;
             }
         }
-        return countAdults;
+        return count;
     }
-
 }
